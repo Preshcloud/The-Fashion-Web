@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Website</title>
+    <link rel="stylesheet" href="./style2.css">
+   <style>
+    .image-container {
+        display: flex; /* Makes the images align side by side */
+        gap: 10px; /* Adds spacing between the images */
+    }
+    .image-container img {
+        width: 300px; /* Adjust the width of the images as needed */
+        height: auto; /* Maintains aspect ratio */
+        border: 2px solid #ccc; /* Adds a border */
+        border-radius: 5px; /* Rounds corners of the images */
+    }
+</style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header" id="Home">
+        <nav class="navbar">
+            
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+               
+                <li><a href="#Collections">Collections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Welcome to Glamour Gaze</h1>
+            <p>Elevate your style with our latest collection.</p>
+            <a href="#" class="cta-button">Explore Now</a>
+        </div>
+    </header>
+    <!-- Content Section -->
+<Section id="Collections">
+    <div class="img container">
+       <a href="./Women.html" target="_blank"> <img src="./epp.jpg" height="300" width="250"> </a>
+        <h3>Women's collection</h3>
+    
+    </div>
+    <div class="image container">
+       <a href="./Men.html" target="_blank"><img src="./MC.jpg" height="300" width="250"></a>
+        <h3>Men's collection</h3>
+    
+    </div>
+</Section>
+
+
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>At Glamour Gaze, we believe in creating timeless fashion that inspires confidence.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form> 
+    
+    </section>
+
+<!--To scroll up to the top-->
+<a href="#" class="totop">
+    <img src="./TOP.png" alt="An arrow pointing to the top">
+</a>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Glamour Gaze. All rights reserved.</p>
+    </footer>
+</body>
+</html>
